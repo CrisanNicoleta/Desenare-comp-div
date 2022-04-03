@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <meta charset="utf-8">
+    <title>Desenare</title>
+  
+<style>
+      #boxes {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      div {
+        float: left;
+        height: 180px;
+        width: 100px;
+        padding: 0 10px;
+      }
+     div.a{ 
+         float: left;
+          }
+    div.b{
+        float:left;
+         }
+      #column1 {
+        background-color: #b3cccc;
+      }
+      #column2 {
+        background-color: #ffff1a;
+      }
+      #column3 {
+        background-color:#4ddbff ;
+      }
+      #column4 {
+        background-color: #29a329;
+      }
+      #column5 {
+        background-color:  #ff66b3;
+      }
+      #column6 {
+        background-color:  #e60000;
+      }
+        #column7 {
+        background-color: #0000b3;
+      }
+      #column8 {
+        background-color:#000000;
+      }
+      #column9 {
+        background-color:#ff8c1a;
+      }
+      #column10 {
+        background-color: #990099;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="boxes">
+      <div id="column1">
+      </div>
+      <div id="column2">
+      </div>
+      <div id="column3">
+      </div>
+      <div id="column4">
+      </div>
+      <div id="column5">
+      </div>
+      <div id="column6">
+      </div>
+      <div id="column7">
+      </div>
+      <div id="column8">
+      </div>
+      <div id="column9">
+      </div>
+      <div id="column10"></div><br>
+      <br><div id="a" 
+       onmouseover="mouseOver()"
+       onmouseout="mouseOut()">
+      <h2>#b3cccc</h2></div>
+      <div id="b"
+      onmouseover="mouseOver2()"
+      onmouseout="mouseOut2()">
+      <h2>#ffff1a</h2></div>
+      <div id="c"
+      onmouseover="mouseOver3()"
+      onmouseout="mouseOut3()">
+      <h2>#4ddbff</h2></div>
+      <div id="d"
+      onmouseover="mouseOver4()"
+      onmouseout="mouseOut4()">
+      <h2>#29a329</h2></div>
+      <div id="e"
+      onmouseover="mouseOver5()"
+      onmouseout="mouseOut5()">
+      <h2>#ff66b3</h2></div>
+      <div id="f"
+      onmouseover="mouseOver6()"
+      onmouseout="mouseOut6()">
+      <h2>#e60000</h2></div>
+      <div id="g"
+      onmouseover="mouseOver7()"
+      onmouseout="mouseOut7()">
+      <h2>#0000b3</h2></div>
+      <div id="h"
+      onmouseover="mouseOver8()"
+      onmouseout="mouseOut8()">
+      <h2>#000000</h2></div>
+      <div id="i"
+      onmouseover="mouseOver9()"
+      onmouseout="mouseOut9()">
+      <h2>#ff8c1a</h2></div>
+      <div id="j"
+      onmouseover="mouseOver10()"
+      onmouseout="mouseOut10()">
+      <h2> #990099</h2></div
+   </main>
+   <script>
+    function mouseOver(){
+	document.getElementById("a").style.background= "#b3cccc";
+                         }
+    function mouseOver2(){
+        document.getElementById("b").style.background="#ffff1a";
+                         }
+    function mouseOver3(){
+        document.getElementById("c").style.background="#4ddbff";
+                         }
+    function mouseOver4(){
+        document.getElementById("d").style.background="#29a329";
+                         }
+    function mouseOver5(){
+        document.getElementById("e").style.background=" #ff66b3";
+                         }
+    function mouseOver6(){
+        document.getElementById("f").style.background="#e60000";
+                         }
+     function mouseOver7(){
+        document.getElementById("g").style.background="#0000b3";
+                         }
+     function mouseOver8(){
+        document.getElementById("h").style.background="#000000";
+                         }
+     function mouseOver9(){
+        document.getElementById("i").style.background="#ff8c1a";
+                         }
+     function mouseOver10(){
+        document.getElementById("j").style.background="#990099";
+                         }
+    function mouseOut(){
+	document.getElementById("a").style.background= "white";
+                       }
+    function mouseOut2(){
+	document.getElementById("b").style.background= "white";
+                       }
+    function mouseOut3(){
+	document.getElementById("c").style.background= "white";
+                       }
+    function mouseOut4(){
+	document.getElementById("d").style.background= "white";
+                       }
+    function mouseOut5(){
+	document.getElementById("e").style.background= "white";
+                       }
+    function mouseOut6(){
+	document.getElementById("f").style.background= "white";
+                       }
+    function mouseOut7(){
+	document.getElementById("g").style.background= "white";
+                       }
+    function mouseOut8(){
+	document.getElementById("h").style.background= "white";
+                       }
+   function mouseOut9(){
+	document.getElementById("i").style.background= "white";
+                       }
+    function mouseOut10(){
+	document.getElementById("j").style.background= "white";
+                       }
+
+   
+ </script>
+ 
+  </body>
+</html>
